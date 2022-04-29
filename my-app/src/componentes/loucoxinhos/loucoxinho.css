@@ -1,0 +1,71 @@
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoLogin{
+    margin: 0.5rem;
+}
+
+.labelLogin{
+    font-size: 1rem;
+    font-weight:500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 0.5rem 0 1rem;
+}
+
+.inputLogin{
+    width: 65%;
+    height: 1.25rem;
+    border:  0.001rem solid #222;
+    border-radius: 5px;
+}
+
+.btnLogin{
+    background: #f8a602;
+    color:#FFF;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+    border: 0.05px solid #f7c86a ;
+    border-radius: 5px;
+    font-family: 'Ruda', sans-serif;
+    transition: 0.5s;
+}
+
+.btnLogin:hover{
+    font-size: 1.75rem;
+    padding: 0.5em;
+    background: #db9200;
+    cursor: pointer;
+}
+
+.formField__error{
+    color:#ff0000;
+    text-align: center;
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+.btnLoginCadastro{
+    width: 45%;
+    margin: 1rem 2.5%;
+    font-family: 'Ruda', sans-serif;
+    font-size: 1.5rem;
+    background: #f8a602;
+    border: 1px solid #f8a602;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.btnLoginCadastro:hover{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+    .loginCadastro{
+        margin: 0 auto
+    }
+}

@@ -1,0 +1,41 @@
+.homeLoucoxinhos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border-top: 0.1rem solid #FFF ;
+    background: linear-gradient(#f7c86a, #FFF)
+}
+
+.homeLoucoxinhosInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoLoucoxinho{
+    height: 7rem;
+}
+
+.banner{
+    box-sizing: border-box;
+}
+
+.semiTitulo{
+    font-family: 'Ruda', sans-serif;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:768px) {
+    .homeLoucoxinhos{
+        border: 0.1rem solid #fff;
+        background-image: none;
+        background: linear-gradient(#f7c86a, #FFF)
+    }
+    .logoLoucoxinho{
+        visibility: hidden;
+    }
+    .homeLoucoxinhosInfo{
+        font-size: 0.5rem;
+    }
+}

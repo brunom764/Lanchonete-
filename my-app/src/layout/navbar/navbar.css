@@ -1,0 +1,58 @@
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    background: #f7c86a;
+    padding: 1em;
+}
+
+.titulo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    align-self: center;
+    font-weight: bolder;
+    color:#FFF;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    height: 8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.logotipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item{
+    margin-right: 1.5em;
+    font-family: 'Ruda', sans-serif;
+}
+
+.item a {
+    color:#FFF;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color:#222;
+}
+
+@media screen and (max-width:768px) {
+    .list{
+        flex-direction: column;
+    }
+    .item{
+        margin-bottom: 1em;
+    }
+}

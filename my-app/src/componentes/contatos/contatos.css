@@ -1,0 +1,25 @@
+.estabelecimentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 7.95rem 0;
+}
+
+.tituloEstabelecimento{
+    font-family:'Ruda', sans-serif ;
+    font-size: 2rem;
+    color: #f8a602;
+}
+
+.infoEstabelecimento{
+    font-family: 'Open Sans', sans-serif;
+    color:#f7c86a;
+}
+
+@media  screen and (max-width:768px) {
+    .estabelecimentos{
+        flex-direction: column;
+        text-align: center;
+        margin: 3rem 0;
+    }
+}
